@@ -8,3 +8,4 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 -Start appium server appium.
 -Run runner file in directory "src/test/java/for_sale_app/tests/add_advertisement/AddAdvertisementRunner.java".
 
+Manual Task google sheet link https://docs.google.com/spreadsheets/d/1BFky0mQbrznBRAPfAPKEL9OMwQrVUDCHVaVTvZrMwF8/edit?usp=sharing

@@ -10,7 +10,8 @@ import org.testng.Assert;
 import java.net.MalformedURLException;
 
 public class AddAdvertiseStepDef extends BaseTest {
-    public MyApp myApp =new MyApp();
+
+    public MyApp myApp = new MyApp(driver);
 
     public AddAdvertiseStepDef() throws MalformedURLException {
         super();
