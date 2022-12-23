@@ -18,7 +18,7 @@ public class BaseTest {
 //        caps.setCapability(AndroidMobileCapabilityType.APP_ACTIVITY, "falcon.chat.view.WelcomeActivity");
 //       caps.setCapability(AndroidMobileCapabilityType.APP_PACKAGE, "com.forsale.forsale");
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Nexus5API30");
-       caps.setCapability(MobileCapabilityType.APP, "src/main/resources/com.forsale.forsale.apk");
+       caps.setCapability(MobileCapabilityType.APP, "D:\\automation\\forSaleApp\\src\\main\\resources\\com.forsale.forsale.apk");
         driver = new AndroidDriver(new URL(URL), caps);
     }
 }
