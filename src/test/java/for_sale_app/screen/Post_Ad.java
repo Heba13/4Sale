@@ -27,7 +27,7 @@ public class Post_Ad  extends BaseScreen {
     MobileElement errorMessage ;
 
     public Post_Ad(AppiumDriver<MobileElement> driver) throws MalformedURLException {
-        super();
+        super(driver);
     }
     public MobileElement getChooseCategory() {
         return chooseCategory;

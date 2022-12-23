@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 public class Categories  extends BaseScreen {
 
     public Categories(AppiumDriver<MobileElement> driver) throws MalformedURLException {
-        super();
+        super(driver);
     }
 
     public void chooseCategory(String category) {

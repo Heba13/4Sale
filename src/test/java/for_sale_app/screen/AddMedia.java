@@ -9,7 +9,7 @@ import java.net.MalformedURLException;
 public class AddMedia extends BaseScreen {
 
     public AddMedia (AppiumDriver<MobileElement> driver) throws MalformedURLException {
-        super();
+        super(driver);
     }
 
 }

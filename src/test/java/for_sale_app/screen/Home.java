@@ -19,7 +19,7 @@ public class Home extends BaseScreen {
     MobileElement profile;
 
     public Home(AppiumDriver<MobileElement> driver) throws MalformedURLException {
-        super();
+        super(driver);
     }
 
     public MobileElement getNavigationBar() {

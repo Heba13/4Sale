@@ -24,7 +24,7 @@ public class MyProfile extends BaseScreen{
         MobileElement okButton;
 
     public MyProfile(AppiumDriver<MobileElement> driver) throws MalformedURLException {
-        super();
+        super(driver);
     }
 
     public MobileElement getSettings() {
