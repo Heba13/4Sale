@@ -10,20 +10,14 @@ import java.net.MalformedURLException;
 
 public class Home extends BaseScreen {
 
-    @AndroidFindBy(id = "com.forsale.forsale:id/navigation_bar_item_icon_view")
-    MobileElement navigationBar;
-
     @AndroidFindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Post an Ad\"]/android.widget.FrameLayout/android.widget.ImageView")
     MobileElement addAds;
-    @AndroidFindBy(xpath = "")
+
+    @AndroidFindBy(xpath = "//android.widget.FrameLayout[@content-desc=\"Profile\"]/android.widget.FrameLayout/android.widget.ImageView")
     MobileElement profile;
 
     public Home(AppiumDriver<MobileElement> driver) throws MalformedURLException {
         super(driver);
-    }
-
-    public MobileElement getNavigationBar() {
-        return navigationBar;
     }
 
     public Post_Ad clickOnAddAds() throws MalformedURLException {

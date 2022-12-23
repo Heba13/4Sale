@@ -23,6 +23,7 @@ public class Post_Ad  extends BaseScreen {
 
     @AndroidFindBy(id = "com.forsale.forsale:id/adTitleField")
     MobileElement title ;
+
     @AndroidFindBy(id = "")
     MobileElement errorMessage ;
 

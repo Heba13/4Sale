@@ -25,6 +25,7 @@ public class AddAdvertiseStepDef extends BaseTest {
               myApp.myProfile.clickOnSettings();
               myApp.myProfile.clickOnLanguage();
               myApp.myProfile.clickOnArabicOption();
+              myApp.myProfile.clickOnOkButton();
           }
     }
 
@@ -68,8 +69,8 @@ public class AddAdvertiseStepDef extends BaseTest {
         myApp.addMedia= myApp.post_ad.clickOnNext();
     }
 
-    @Then("descriptive error message will appesred with {string}")
-    public void descriptiveErrorMessageWillAppesredWith(String errorMessage) {
-        Assert.assertEquals(myApp.post_ad.getErrorMessage(),errorMessage);
+    @Then("descriptive error message will appear")
+    public void descriptiveErrorMessageWillAppear() {
+        Assert.assertFalse(myApp.addMedia.getAddVedioIcon().isDisplayed());
     }
 }

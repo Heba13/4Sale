@@ -10,10 +10,10 @@ Feature:Advertise
     And   click on a specific "<section>" in the "<category>" screen
     Then  user should be redirected to Post Ad page page
     When  click on next button on  Post Ad Screen
-    Then  descriptive error message will appesred with "<error message>"
+    Then  descriptive error message will appear
 
     Examples:
-      | lang | category    | section | error message                        |
-      | en   | Electronics | Audio   | Please enter the title               |
-      | ar   | إلكترونيات  | سماعات  | من فضلك قم بإدخال المعلومات المطلوبه |
+      | lang | category    | section |
+      | en   | Electronics | Audio   |
+      | ar   | إلكترونيات  | سماعات  |
 
