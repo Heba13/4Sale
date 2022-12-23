@@ -1,0 +1,10 @@
+-Create new project in your IED.
+-Clone the project using git clone.
+
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+-Open android Studio
+-create device Emeulator.
+-Start appium server appium.
+-Run runner file in directory "src/test/java/for_sale_app/tests/add_advertisement/AddAdvertisementRunner.java".
+
