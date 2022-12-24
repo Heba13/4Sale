@@ -4,8 +4,6 @@ import for_sale_app.base_screen.BaseScreen;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.springframework.context.annotation.Profile;
-
 import java.net.MalformedURLException;
 
 public class Home extends BaseScreen {

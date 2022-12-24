@@ -4,12 +4,7 @@ import for_sale_app.base_screen.BaseScreen;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.openqa.selenium.By;
-
-import javax.xml.xpath.XPath;
 import java.net.MalformedURLException;
-
-import static java.awt.SystemColor.text;
 
 public class Post_Ad  extends BaseScreen {
     @AndroidFindBy(id = "com.forsale.forsale:id/adTitleField")
@@ -18,14 +13,11 @@ public class Post_Ad  extends BaseScreen {
     @AndroidFindBy(id = "com.forsale.forsale:id/compose_view")
     MobileElement next;
 
-    @AndroidFindBy(id = " com.forsale.forsale:id/chooseCategoryField")
+    @AndroidFindBy(id = "com.forsale.forsale:id/chooseCategoryField")
     MobileElement chooseCategory ;
 
     @AndroidFindBy(id = "com.forsale.forsale:id/adTitleField")
     MobileElement title ;
-
-    @AndroidFindBy(id = "")
-    MobileElement errorMessage ;
 
     public Post_Ad(AppiumDriver<MobileElement> driver) throws MalformedURLException {
         super(driver);
@@ -57,10 +49,6 @@ public class Post_Ad  extends BaseScreen {
 
     public void enterTitle(String AddTitle) {
         title.sendKeys(AddTitle);
-    }
-
-    public String getErrorMessage (){
-      return   errorMessage.getText();
     }
 
 }

@@ -11,16 +11,16 @@ public class MyProfile extends BaseScreen{
         @AndroidFindBy(id = "com.forsale.forsale:id/settingsHeader")
         MobileElement settings;
 
-        @AndroidFindBy(xpath ="com.forsale.forsale:id/language")
+        @AndroidFindBy(id ="com.forsale.forsale:id/language")
         MobileElement language;
 
-        @AndroidFindBy(xpath = "com.forsale.forsale:id/rbArabic")
+        @AndroidFindBy(id = "com.forsale.forsale:id/rbArabic")
         MobileElement arabicOption;
 
-        @AndroidFindBy(xpath = "com.forsale.forsale:id/rbEnglish")
+        @AndroidFindBy(id = "com.forsale.forsale:id/rbEnglish")
         MobileElement englishOption;
 
-        @AndroidFindBy(xpath = "com.forsale.forsale:id/btnLanguageOkay\n")
+        @AndroidFindBy(id = "com.forsale.forsale:id/btnLanguageOkay")
         MobileElement okButton;
 
     public MyProfile(AppiumDriver<MobileElement> driver) throws MalformedURLException {

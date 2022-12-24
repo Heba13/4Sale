@@ -1,6 +1,5 @@
 package for_sale_app.base_screen;
 
-import for_sale_app.tests.BaseTest;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
