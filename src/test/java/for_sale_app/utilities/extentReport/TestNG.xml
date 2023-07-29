@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="forSale Test Suite" >
+        <listeners>
+            <listener class-name="for_sale_app.utilities.listener.TestNGListener"/>
+        </listeners>
+    <test name="4saleextentReport">
+        <classes>
+            <class name="for_sale_app.utilities.extentReport.ExtentReport"/>
+            <class name="for_sale_app.base_screen.BaseScreen"/>
+            <class name="for_sale_app.tests.add_advertisement.AddAdvertisementRunner"/>
+        </classes>
+    </test></suite>

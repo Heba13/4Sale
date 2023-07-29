@@ -1,0 +1,4 @@
+name: "4Sale"
+appmap_dir: "tmp/appmap"
+packages:
+- path: "for_sale_app"

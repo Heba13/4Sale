@@ -1,5 +1,6 @@
 Feature:Advertise
-  Scenario Outline:User want to Add an advertisement
+
+  Scenario Outline: User want to Add an advertisement
     Given open My App in lang"<lang>"
     When  click on post an Ad icon in navigation bar in Home screen
     Then  user should be redirected to Post Ad page
@@ -15,8 +16,7 @@ Feature:Advertise
     Examples:
       | lang |
       | en   |
-      | ar   |
-#
+
 #  Scenario Outline:User want to Add an advertisement with a specific category
 #    Given open My App in lang"<lang>"
 #    When  click on post an Ad icon in navigation bar in Home screen

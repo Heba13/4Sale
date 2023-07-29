@@ -4,6 +4,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -16,4 +17,5 @@ public class BaseTest {
         caps.setCapability(MobileCapabilityType.APP, "D:/automation/newforsale/4Sale/src/test/java/for_sale_app/com.forsale.forsale.apk");
         driver = new AndroidDriver(new URL(URL), caps);
     }
+
 }

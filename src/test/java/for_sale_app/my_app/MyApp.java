@@ -14,6 +14,7 @@ public class MyApp {
     public Categories categories;
     public MyProfile myProfile;
     public AddMedia addMedia;
+
     public MyApp(AppiumDriver<MobileElement> driver) throws MalformedURLException {
         this.home = new Home(driver);
         PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(30)), this);
